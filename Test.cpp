@@ -8,11 +8,11 @@ void print_number(int* myInt) {
 
 int main ()
 {
-  int a=10;
+  int d=10;
   int * b = NULL;
   int * c = NULL;
 
-  b=&a;
+  b=&d;
 
   print_number (b);
   print_number (b);

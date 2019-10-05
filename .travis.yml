@@ -10,6 +10,9 @@ script:
 
 notifications:
   email:
-    - fredy.ballesteros@correounivalle.edu.co
-    - carlos.hidalgo@correounivalle.edu.co
-    - leidy.carvajal.o@correounivalle.edu.co
+    recipients:
+      - fredy.ballesteros@correounivalle.edu.co
+      - carlos.hidalgo@correounivalle.edu.co
+      - leidy.carvajal.o@correounivalle.edu.co
+    on_success: always # default: change
+    on_failure: always # default: always
