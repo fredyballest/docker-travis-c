@@ -15,7 +15,7 @@ int main ()
   b=&a;
 
   print_number (b);
-  print_number (b);
+  print_number (c);
 
   return 0;
 }
