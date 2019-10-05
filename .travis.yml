@@ -11,3 +11,5 @@ script:
 notifications:
   email:
     - fredy.ballesteros@correounivalle.edu.co
+    - carlos.hidalgo@correounivalle.edu.co
+    - leidy.carvajal.o@correounivalle.edu.co
